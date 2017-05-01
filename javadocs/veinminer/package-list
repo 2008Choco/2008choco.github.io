@@ -1,0 +1,11 @@
+me.choco.veinminer
+me.choco.veinminer.api
+me.choco.veinminer.api.veinutils
+me.choco.veinminer.commands
+me.choco.veinminer.events
+me.choco.veinminer.utils
+me.choco.veinminer.utils.versions
+me.choco.veinminer.utils.versions.v1_10
+me.choco.veinminer.utils.versions.v1_11
+me.choco.veinminer.utils.versions.v1_8
+me.choco.veinminer.utils.versions.v1_9
