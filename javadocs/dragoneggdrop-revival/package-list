@@ -1,9 +1,10 @@
 com.ninjaguild.dragoneggdrop
 com.ninjaguild.dragoneggdrop.api
 com.ninjaguild.dragoneggdrop.commands
+com.ninjaguild.dragoneggdrop.dragon
 com.ninjaguild.dragoneggdrop.events
-com.ninjaguild.dragoneggdrop.loot
+com.ninjaguild.dragoneggdrop.management
 com.ninjaguild.dragoneggdrop.utils
-com.ninjaguild.dragoneggdrop.utils.manager
+com.ninjaguild.dragoneggdrop.utils.math
 com.ninjaguild.dragoneggdrop.utils.runnables
 com.ninjaguild.dragoneggdrop.versions
