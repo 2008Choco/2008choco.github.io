@@ -1,0 +1,15 @@
+me.choco.locksecurity
+me.choco.locksecurity.api
+me.choco.locksecurity.api.event
+me.choco.locksecurity.api.event.variant
+me.choco.locksecurity.api.exception
+me.choco.locksecurity.api.utils
+me.choco.locksecurity.commands
+me.choco.locksecurity.events
+me.choco.locksecurity.events.data
+me.choco.locksecurity.events.protection
+me.choco.locksecurity.registration
+me.choco.locksecurity.utils
+me.choco.locksecurity.utils.general
+me.choco.locksecurity.utils.json
+me.choco.locksecurity.utils.localization
