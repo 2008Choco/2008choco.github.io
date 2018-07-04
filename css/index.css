@@ -1,9 +1,10 @@
 body {
-    background: linear-gradient(rgb(68, 160, 221), rgb(68, 130, 221)) fixed;
+    background: linear-gradient(rgb(50, 50, 50), rgb(20, 20, 20)) fixed;
     font: 14px arial, sans-serif;
+    color: white;
 }
 
-div.profile-header {
+.profile-header {
     background-image: url("../assets/header-image.jpg");
     
     position: absolute;
@@ -16,7 +17,7 @@ div.profile-header {
     border-bottom: 4px solid black;
 }
 
-div.profile-header .profile {
+.profile-header .profile {
     clear: center;
     width: 600px;
     height: 200px;
@@ -25,11 +26,10 @@ div.profile-header .profile {
     margin-left: auto;
     margin-right: auto;
     
-    font: 15px verdana, sans-serif;
-    color: white;
+    font: 15px verdana;
 }
 
-div.profile-header .profile p {
+.profile-header .profile p {
     text-align: justify;
 }
 
@@ -40,7 +40,7 @@ div.profile-header .profile p {
     height: 200px;
 }
 
-div.profile-header .social {
+.profile-header .social {
     position: absolute;
     bottom: 6px;
     right: 10px;
@@ -49,36 +49,58 @@ div.profile-header .social {
 .social-logo {
     width: 30px;
     height: 30px;
+    
     border: 2px solid black;
     border-radius: 4px;
 }
 
-div.below-header {
-    position: relative;
+.below-header {
+    position: absolute;
+    
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    
     top: 275px;
+    padding: 10px;
 }
 
-div.plugin-desc {
-    position: static;
-    
+.plugin-separator {
+    width: 0px;
+    height: 20px;
+}
+
+.plugin-desc {
     clear: left;
-    padding: 20px;
-    padding-left: 20%;
+    background: rgb(70, 70, 70);
+    border: 4px solid black;
+    border-radius: 8px;
+    
+    height: 105px;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    padding: 10px;
+    border: 2.5px solid black;
 }
 
 .plugin-logo {
     float: left;
     border: 4px solid black;
     border-radius: 8px;
-    width: 6.5%;
-    height: 6.5%;
+}
+
+.plugin-summary {
+    float: left;
+    padding-left: 2%;
 }
 
 .plugin-title {
-    float: left;
-    padding-left: 2%;
-    width: 16%;
-    
-    font: 15px verdana, sans-serif;
+    font: 16px verdana;
     font-weight: bold;
+}
+
+.plugin-description {
+    font: 14px verdana, sans-serif;
 }
