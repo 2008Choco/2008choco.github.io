@@ -2,6 +2,9 @@ body {
     background: linear-gradient(rgb(50, 50, 50), rgb(20, 20, 20)) fixed;
     font: 14px arial, sans-serif;
     color: white;
+    
+    margin-left: 0;
+    margin-right: 0;
 }
 
 .profile-header {
@@ -68,7 +71,6 @@ body {
     margin-right: auto;
     
     top: 275px;
-    padding: 10px;
 }
 
 .plugin-separator {
