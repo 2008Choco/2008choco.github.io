@@ -26,16 +26,17 @@ body {
     margin-left: auto;
     margin-right: auto;
     
-    font: 15px verdana;
+    font: 14px verdana;
 }
 
-.profile-header .profile p {
+.profile-header .profile-summary {
+    overflow: hidden;
+    padding-left: 10px;
     text-align: justify;
 }
 
 #profile-image {
     float: left;
-    padding-right: 20px;
     width: 200px;
     height: 200px;
 }
