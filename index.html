@@ -8,7 +8,16 @@
     <body>
         <div class="profile-header">
             <div class="profile">
-                <img src="./assets/profile-pic.png" alt="Profile Picture" id="profile-image">
+                <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                    <div class="flipper">
+                        <div class="front">
+                            <img src="./assets/profile-pic.png" alt="Profile Picture" class="profile-image">
+                        </div>
+                        <div class="back">
+                            <img src="./assets/profile-pic-irl.jpg" alt="IRL Profile Picture" class="profile-image" id="irl">
+                        </div>
+                    </div>
+                </div>
                 
                 <div class="profile-summary">
                     <p>My name is <strong>Parker Hawke</strong>, known online as <strong>2008Choco</strong>. I am a software developer proficient in Java, a language in which I write indie games and free, open source Minecraft Bukkit plugins.</p>
