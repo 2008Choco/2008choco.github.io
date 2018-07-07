@@ -91,6 +91,7 @@ body {
     
     padding: 10px;
     border: 2.5px solid black;
+    box-shadow: 4px 4px rgb(15, 15, 15);
 }
 
 .plugin-logo {
