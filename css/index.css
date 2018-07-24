@@ -1,40 +1,38 @@
-body {
-    background: linear-gradient(rgb(50, 50, 50), rgb(20, 20, 20)) fixed;
-    font: 14px arial, sans-serif;
+body, html {
     color: white;
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    background: linear-gradient(#323232, #141414) fixed;
+    font: 14px arial, sans-serif;
     
-    margin-left: 0;
-    margin-right: 0;
+    display: grid;
+    grid-template-rows: 240px auto;
 }
 
 .profile-header {
-    background-image: url("../assets/header-image.jpg");
-    
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
     width: 100%;
-    height: 240px;
+    position: relative;
     
     border-bottom: 4px solid black;
+    background-image: url("../assets/header-image.jpg");
 }
 
-.profile-header .profile {
-    clear: center;
+.profile {
     width: 600px;
-    height: 200px;
     padding: 20px;
+    margin: auto;
     
-    margin-left: auto;
-    margin-right: auto;
+    display: grid;
+    grid-template-columns: 200px auto;
+    grid-column-gap: 10px;
     
     font: 14px verdana;
 }
 
-.profile-header .profile-summary {
-    overflow: hidden;
-    padding-left: 10px;
+.profile-summary {
     text-align: justify;
 }
 
@@ -49,7 +47,7 @@ body {
     border: 4px solid black;
 }
 
-.profile-header .social {
+.social {
     position: absolute;
     bottom: 6px;
     right: 10px;
@@ -63,50 +61,56 @@ body {
     border-radius: 4px;
 }
 
-.below-header {
-    position: absolute;
-    
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    
-    top: 275px;
+ul {
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
 }
 
-.plugin-separator {
-    width: 0px;
-    height: 20px;
+li {
+    margin: 20px 0;
 }
 
 .plugin-background {
-    clear: left;
-    background: rgb(70, 70, 70);
+    background: #464646;
     border: 4px solid black;
     border-radius: 8px;
     
     height: 105px;
     width: 800px;
-    margin-left: auto;
-    margin-right: auto;
     
     padding: 10px;
     border: 2.5px solid black;
-    box-shadow: 4px 4px rgb(15, 15, 15);
+    box-shadow: 4px 4px #0f0f0f;
+    
+    display: grid;
+    grid-template-columns: 100px auto;
+    grid-template-rows: 30% auto;
+    grid-column-gap: 2%;
+}
+
+// Temporary... just as an example hover animation
+.plugin-background:hover {
+    background: #404040;
 }
 
 .plugin-logo {
-    float: left;
+    width: 100px;
+    height: 100px;
+    
+    grid-row-end: 2;
+    
     border: 4px solid black;
     border-radius: 8px;
 }
 
-.plugin-summary {
-    float: left;
-    padding-left: 2%;
+.plugin-background p {
+    margin: 0;
+    padding: 7.5px;
 }
 
 .plugin-title {
-    font: 16px verdana;
+    font: 17px verdana;
     font-weight: bold;
 }
 
