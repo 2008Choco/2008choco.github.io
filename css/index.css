@@ -89,7 +89,7 @@ li {
     grid-column-gap: 2%;
 }
 
-// Temporary... just as an example hover animation
+/* Temporary... just as an example hover animation */
 .plugin-background:hover {
     background: #404040;
 }
