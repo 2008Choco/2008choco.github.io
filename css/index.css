@@ -2,6 +2,8 @@ body, html {
     color: white;
     height: 100%;
     margin: 0;
+    
+    text-align: justify;
 }
 
 body {
@@ -30,10 +32,6 @@ body {
     grid-column-gap: 10px;
     
     font: 14px verdana;
-}
-
-.profile-summary {
-    text-align: justify;
 }
 
 .profile-image {
@@ -81,24 +79,17 @@ li {
     
     padding: 10px;
     border: 2.5px solid black;
-    box-shadow: 4px 4px #0f0f0f;
+    box-shadow: 4px 4px 8px rgba(15, 15, 15, 0.6);
     
     display: grid;
     grid-template-columns: 100px auto;
     grid-template-rows: 30% auto;
-    grid-column-gap: 2%;
-}
-
-/* Temporary... just as an example hover animation */
-.plugin-background:hover {
-    background: #404040;
+    grid-column-gap: 3%;
 }
 
 .plugin-logo {
     width: 100px;
     height: 100px;
-    
-    grid-row-end: 2;
     
     border: 4px solid black;
     border-radius: 8px;
