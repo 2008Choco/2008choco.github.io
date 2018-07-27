@@ -3,6 +3,7 @@ body, html {
     height: 100%;
     margin: 0;
     
+    font: 14px verdana;
     text-align: justify;
 }
 
@@ -30,8 +31,6 @@ body {
     display: grid;
     grid-template-columns: 200px auto;
     grid-column-gap: 10px;
-    
-    font: 14px verdana;
 }
 
 .profile-image {
@@ -95,10 +94,6 @@ body {
 }
 
 .plugin-title {
-    font: 17px verdana;
+    font-size: 17px;
     font-weight: bold;
-}
-
-.plugin-description {
-    font: 14px verdana;
 }
