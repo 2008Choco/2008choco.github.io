@@ -1,21 +1,32 @@
-function iterateAndPerform(component, recursiveFunction, listModificationFunction) {
-    if (!component.classList.contains("slider-bar")) {
-        for (let child of component.children) {
-            recursiveFunction(child);
+$(document).ready(function() {
+    $(".slider").hover(
+        function() { // Do not understand why these aren't working... :(
+            console.log("entering slider");
+            setShownFlag($(this).parent, true);
+        },
+        function() {
+            console.log("exiting slider");
+            setShownFlag($(this).parent, false);
         }
-        
-        return;
-    }
+    );
     
-    for (let child of component.children) {
-        listModificationFunction.call(this, child, "shown");
+    $(".plugin-background").hover(
+        function() {
+            setShownFlag($(this).children(".slider-bar"), true);
+        },
+        function() {
+            setShownFlag($(this).children(".slider-bar"), false);
+        }
+    );
+});
+
+function setShownFlag(sliderbar, shown) {
+    var sliders = sliderbar.children();
+    var isShown = sliders.hasClass("shown");
+    
+    if (shown && !isShown) {
+        sliders.addClass("shown");
+    } else if (!shown && isShown) {
+        sliders.removeClass("shown");
     }
-}
-
-function showInformationBars(component) {
-    iterateAndPerform(component, showInformationBars, (child, className) => child.classList.add(className));
-}
-
-function hideInformationBars(component) {
-    iterateAndPerform(component, hideInformationBars, (child, className) => child.classList.remove(className));
 }
