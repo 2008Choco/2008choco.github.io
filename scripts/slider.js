@@ -1,21 +1,12 @@
 $(document).ready(function() {
-    $(".slider").hover(
-        function() { // Do not understand why these aren't working... :(
-            console.log("entering slider");
-            setShownFlag($(this).parent, true);
-        },
-        function() {
-            console.log("exiting slider");
-            setShownFlag($(this).parent, false);
-        }
-    );
-    
     $(".plugin-background").hover(
         function() {
-            setShownFlag($(this).children(".slider-bar"), true);
+            setShownFlag($(this).children(".slider-container"), true);
+            setShownFlag($(this).children(".slider-container").children(".slider-bar"), true);
         },
         function() {
-            setShownFlag($(this).children(".slider-bar"), false);
+            setShownFlag($(this).children(".slider-container"), false);
+            setShownFlag($(this).children(".slider-container").children(".slider-bar"), false);
         }
     );
 });
