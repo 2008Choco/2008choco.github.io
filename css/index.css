@@ -97,3 +97,15 @@ body {
     font-size: 17px;
     font-weight: bold;
 }
+
+.plugin-links {
+    position: absolute;
+    right: 20px;
+    bottom: 4px;
+}
+
+.plugin-links img {
+    margin: 0 4px;
+    width: 25px;
+    height: 25px;
+}
