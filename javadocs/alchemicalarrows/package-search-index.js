@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"wtf.choco.arrows"},{"l":"wtf.choco.arrows.api"},{"l":"wtf.choco.arrows.api.event"},{"l":"wtf.choco.arrows.api.property"},{"l":"wtf.choco.arrows.registry"}]
