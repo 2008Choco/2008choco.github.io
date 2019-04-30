@@ -1,1 +1,1 @@
-packageSearchIndex = [{"l":"wtf.choco.arrows"},{"l":"wtf.choco.arrows.api"},{"l":"wtf.choco.arrows.api.event"},{"l":"wtf.choco.arrows.api.property"},{"l":"wtf.choco.arrows.registry"}]
+packageSearchIndex = [{"l":"All Packages","url":"allpackages-index.html"},{"l":"wtf.choco.arrows"},{"l":"wtf.choco.arrows.api"},{"l":"wtf.choco.arrows.api.event"},{"l":"wtf.choco.arrows.api.property"},{"l":"wtf.choco.arrows.arrow"},{"l":"wtf.choco.arrows.crafting"},{"l":"wtf.choco.arrows.registry"}]

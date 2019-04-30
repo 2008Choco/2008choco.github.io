@@ -7,3 +7,5 @@ wtf.choco.veinminer.data.block
 wtf.choco.veinminer.pattern
 wtf.choco.veinminer.tool
 wtf.choco.veinminer.tool.template
+wtf.choco.veinminer.utils
+wtf.choco.veinminer.utils.metrics
