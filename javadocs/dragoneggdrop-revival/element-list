@@ -1,7 +1,11 @@
 com.ninjaguild.dragoneggdrop
 com.ninjaguild.dragoneggdrop.api
 com.ninjaguild.dragoneggdrop.dragon
-com.ninjaguild.dragoneggdrop.management
+com.ninjaguild.dragoneggdrop.dragon.loot
+com.ninjaguild.dragoneggdrop.dragon.loot.elements
+com.ninjaguild.dragoneggdrop.dragon.loot.pool
+com.ninjaguild.dragoneggdrop.placeholder
+com.ninjaguild.dragoneggdrop.tasks
 com.ninjaguild.dragoneggdrop.utils
 com.ninjaguild.dragoneggdrop.utils.math
-com.ninjaguild.dragoneggdrop.versions
+com.ninjaguild.dragoneggdrop.world
