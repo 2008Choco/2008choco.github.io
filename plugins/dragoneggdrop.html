@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Choco - Parker Hawke</title>
+
+  <meta charset="utf-8" />
+  <meta name="author" content="Parker Hawke" />
+  <meta name="description" content="Custom YAML-based Ender Dragon templates, loot tables and infinite automatic Ender Dragon respawns (with countdowns!)" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="../css/index.css" />
+  <link rel="stylesheet" href="../css/plugin.css" />
+</head>
+<body>
+  <nav class="container-fluid">
+    <div class="row align-items-center py-4">
+      <!-- Left nav bar -->
+      <div class="col-5">
+        <ul class="nav-list">
+          <li><a href="https://spigotmc.org/members/31119" target="_blank">SpigotMC</a></li>
+          <li><a href="https://github.com/2008Choco" target="_blank">GitHub</a></li>
+          <li><a href="http://discord.choco.wtf" target="_blank">Discord</a></li>
+          <li><a href="https://twitter.com/2008Choco_" target="_blank">Twitter</a></li>
+        </ul>
+      </div>
+
+      <!-- Home button -->
+      <div class="col-2 d-flex justify-content-center">
+        <a href="../index.html"><img src="../assets/icons/home.svg" id="home"></a>
+      </div>
+
+      <!-- Right nav bar -->
+      <div class="col-5">
+        <ul class="nav-list float-right">
+          <li><a href="./veinminer.html">VeinMiner</a></li>
+          <li class="selected-nav"><a href="./dragoneggdrop.html">DragonEggDrop</a></li>
+          <li><a href="./alchemicalarrows.html">AlchemicalArrows</a></li>
+          <li><a href="./locksecurity.html">LockSecurity</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <main class="container">
+      <h1 class="text-center mt-3 mb-5">DragonEggDrop - Revival <img class="rounded-circle" src="../assets/plugins/dragoneggdrop/logo.png" alt="DragonEggDrop logo" width=40 height=40></h1>
+  
+      <div class="row">
+        <div class="col-lg my-auto px-0">
+          <h2 class="mb-3">Information</h2>
+          <p class="m-0 mb-3">
+            DragonEggDrop allows you to customize exactly how the Ender Dragon battle will play out and how your players will be rewarded after it has been slain.
+            Define custom loot tables (similar to <em>Minecraft</em>'s entity loot tables), dragon templates, execute console commands for the top damagers and customize the particle effects on death of the dragon using complex math equations!
+            No need to replace the crystals, the plugin will do this automatically and spectacularly for you!
+          </p>
+          <p class="m-0">
+            This is a fantastic plugin for any server where the Ender Dragon combat is important and frequent. Grant your players that extra reward for their valiant efforts!
+          </p>
+        </div>
+        <div class="col-lg m-auto d-flex justify-content-center">
+          <img class="featured-image" src="../assets/plugins/dragoneggdrop.gif">
+        </div>
+      </div>
+  
+      <hr class="divider">
+  
+      <div class="row">
+        <div class="col-lg m-auto d-flex justify-content-center">
+          <img class="featured-image" src="../assets/plugins/dragoneggdrop/commands.gif">
+        </div>
+  
+        <div class="col-lg my-auto px-0">
+          <h2 class="mb-3">Commands</h2>
+          <p class="m-0 mb-3">
+            DragonEggDrop provides administrators with a massive collection of <strong>unique</strong> and <strong>flexible</strong> in-game commands to control how exactly the dragon should and will spawn.
+            These commands are incredibly easy to use and let you manually take control of the dragon respawn process and which templates to use.
+            All commands are pre-packaged with intelligent tab completion to make its use extremely easy, especially for a beginner.
+          </p>
+          <p class="m-0">
+            For an in-depth list of all commands and their arguments provided by DragonEggDrop, visit the <a href="https://www.spigotmc.org/resources/35570/" taget="_blank" title="SpigotMC">official SpigotMC resource page</a>.
+          </p>
+        </div>
+      </div>
+  
+      <hr class="divider">
+  
+      <div class="row">
+        <div class="col-lg my-auto px-0">
+          <h2 class="mb-3">Permission Nodes</h2>
+          <p class="m-0 mb-3">
+            This plugin aims to be a drag-and-drop solution for most servers whether or not a permission management plugin is installed.
+            While <a href="https://luckperms.net/" target="_blank" title="View LuckPerms">LuckPerms</a> is recommended, players have access to everything they need to use this plugin saemlessly.
+            If you so choose, every aspect of DragonEggDrop has a permission node including, but not limited to:
+          </p>
+          <ul class="m-0">
+            <li>Every template (dynamically registered based on your templates!)</li>
+            <li>Access to administrative commands</li>
+            <li>Whether or not they override some configured values</li>
+          </ul>
+        </div>
+        <div class="col-lg m-auto mt-4 d-flex justify-content-center">
+          <img class="featured-image" src="../assets/plugins/dragoneggdrop/permissions.gif">
+        </div>
+      </div>
+  
+      <hr class="divider">
+  
+      <div class="row">
+        <div class="col-lg m-auto mb-4 d-flex justify-content-center">
+          <img class="featured-image" src="../assets/plugins/dragoneggdrop/configuration.gif">
+        </div>
+  
+        <div class="col-lg my-auto px-0">
+          <h2 class="mb-3">Configurable</h2>
+          <p class="m-0 mb-3">
+            This plugin is easily one of the most configurable plugins on the free market and allows you to customize everything down to the exact loot to generate when the dragon is slain using a <strong>powerful</strong> JSON-based loot table framework.
+          </p>
+          <p class="m-0 mb-3">
+            Not familiar with JSON and want to just use this plugin? Not to worry, DragonEggDrop comes with fair preset templates and loot tables.
+            If you want to learn more about how to use the templates, see <a href="https://github.com/2008Choco/DragonEggDrop/wiki/Creating-a-Loot-Table" title="DragonEggDrop wiki">DragonEggDrop's wiki page</a> where JSON is explained.
+          </p>
+          <p class="m-0">
+            For an in-depth list of all configuration options provided by DragonEggDrop, visit the <a href="https://www.spigotmc.org/resources/35570/" taget="_blank" title="SpigotMC">official SpigotMC resource page</a>.
+          </p>
+        </div>
+      </div>
+  
+      <hr class="divider">
+  
+      <!-- You might also like... popout card. -->
+      <div class="bd-callout" id="callout-alchemicalarrows">
+        <h5>Like DragonEggDrop? You might also like...</h5>
+        <div class="container d-flex py-3 px-0">
+          <img class="plugin-logo mr-4 my-auto" src="../assets/plugins/alchemicalarrows/logo.png" alt="AlchemicalArrows logo">
+          <p class="m-0">
+            <strong>AlchemicalArrows</strong> is another plugin made by Choco with a similar set of flexible commands, permissions and configuration options that allow you amplify the PvP experience with thematic arrows with unique effects.
+            With an extremely flexible API and configuration, easily create your own custom arrows with Java code or modify existing ones with the provided YAML config.
+            This plugin will fit well for any PvP-based server or even a PvE server where players can fight together with powerful ranged weaponry.
+          </p>
+        </div>
+        <p class="text-muted">Get more information on AlchemicalArrows <a href="./alchemicalarrows.html" title="AlchemicalArrows">here</a>!</p>
+      </div>
+  
+      <hr class="divider">
+    </main>
+  </main>
+
+  <footer class="footer mt-auto py-3 px-5">
+    <div class="container-flex">
+      <div class="row">
+        <div class="col">
+          <span class="text-muted text-justify">Icons made by <a class="muted" href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a class="muted" href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></span>
+        </div>
+        <div class="col">
+          <span class="text-muted text-justify float-right">Website designed & written by <a class="muted" href="https://twitter.com/2008Choco_" title="Freepik">Parker Hawke</a></span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+  <!-- My JS -->
+  <script src="../scripts/plugin.js"></script>
+</body>
+</html>

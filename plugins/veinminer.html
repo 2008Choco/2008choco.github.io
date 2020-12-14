@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Choco - VeinMiner</title>
+
+  <meta charset="utf-8" />
+  <meta name="author" content="Parker Hawke" />
+  <meta name="description" content="Mine an entire vein of ores by breaking only one source block. Highly configurable including custom tools, block lists and block aliasing." />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="../css/index.css" />
+  <link rel="stylesheet" href="../css/plugin.css" />
+</head>
+<body>
+  <nav class="container-fluid">
+    <div class="row align-items-center py-4">
+      <!-- Left nav bar -->
+      <div class="col-5">
+        <ul class="nav-list">
+          <li><a href="https://spigotmc.org/members/31119" target="_blank">SpigotMC</a></li>
+          <li><a href="https://github.com/2008Choco" target="_blank">GitHub</a></li>
+          <li><a href="http://discord.choco.wtf" target="_blank">Discord</a></li>
+          <li><a href="https://twitter.com/2008Choco_" target="_blank">Twitter</a></li>
+        </ul>
+      </div>
+
+      <!-- Home button -->
+      <div class="col-2 d-flex justify-content-center">
+        <a href="../index.html"><img src="../assets/icons/home.svg" id="home"></a>
+      </div>
+
+      <!-- Right nav bar -->
+      <div class="col-5">
+        <ul class="nav-list float-right">
+          <li class="selected-nav"><a href="./veinminer.html">VeinMiner</a></li>
+          <li><a href="./dragoneggdrop.html">DragonEggDrop</a></li>
+          <li><a href="./alchemicalarrows.html">AlchemicalArrows</a></li>
+          <li><a href="./locksecurity.html">LockSecurity</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main class="container">
+    <h1 class="text-center mt-3 mb-5">VeinMiner <img class="rounded-circle" src="../assets/plugins/veinminer/logo.png" alt="VeinMiner logo" width=40 height=40></h1>
+
+    <div class="row">
+      <div class="col-lg my-auto px-0">
+        <h2 class="mb-3">Information</h2>
+        <p class="m-0 mb-3">
+          VeinMiner allows players to mine an entire vein of ores whilst sneaking and breaking an ore.
+          It will break the entire vein when only needing to break one ore.
+          Much like the original Forge mod, there is an extremely powerful block list which can be modified in-game, as well as in the configuration file to determine which blocks and states are vein minable.
+          The lists are separated by tools and can be grouped by aliases to allow for a more flexible and simplistic mining experience.
+        </p>
+        <p class="m-0">
+          This is a fantastic perk for Prison, Factions and Semi-Vanilla servers that isn't overpowered, but still gives players a rewarding benefit for donating to your server.
+        </p>
+      </div>
+      <div class="col-lg m-auto d-flex justify-content-center">
+        <img class="featured-image" src="../assets/plugins/veinminer.gif">
+      </div>
+    </div>
+
+    <hr class="divider">
+
+    <div class="row">
+      <div class="col-lg m-auto d-flex justify-content-center">
+        <img class="featured-image" src="../assets/plugins/veinminer/commands.gif">
+      </div>
+
+      <div class="col-lg my-auto px-0">
+        <h2 class="mb-3">Commands</h2>
+        <p class="m-0 mb-3">
+          VeinMiner provides administrators with a <strong>powerful</strong> set of in-game commands to modify how the plugin works at runtime.
+          All commands are pre-packaged with intelligent tab completion to make its use extremely easy, especially for a beginner.
+        </p>
+        <p class="m-0">
+          For an in-depth list of all commands and their arguments provided by VeinMiner, visit the <a href="https://www.spigotmc.org/resources/12038/" taget="_blank" title="SpigotMC">official SpigotMC resource page</a>.
+        </p>
+      </div>
+    </div>
+
+    <hr class="divider">
+
+    <div class="row">
+      <div class="col-lg my-auto px-0">
+        <h2 class="mb-3">Permission Nodes</h2>
+        <p class="m-0 mb-3">
+          This plugin aims to be a drag-and-drop solution for most servers whether or not a permission management plugin is installed.
+          While <a href="https://luckperms.net/" target="_blank" title="View LuckPerms">LuckPerms</a> is recommended, by default, all players have access to VeinMiner's functionality without direct access to the administrative commands (as they are reserved for operators).
+          If you so choose, every aspect of VeinMiner has a permission node including, but not limited to:
+        </p>
+        <ul class="m-0">
+          <li>Each individual tool/category</li>
+          <li>Every subcommand (including administrative subcommands)</li>
+          <li>Special feature overrides (economy, durability, etc.)</li>
+        </ul>
+      </div>
+      <div class="col-lg m-auto mt-4 d-flex justify-content-center">
+        <img class="featured-image" src="../assets/plugins/veinminer/permissions.gif">
+      </div>
+    </div>
+
+    <hr class="divider">
+
+    <div class="row">
+      <div class="col-lg m-auto mb-4 d-flex justify-content-center">
+        <img class="featured-image" src="../assets/plugins/veinminer/configuration.gif">
+      </div>
+
+      <div class="col-lg my-auto px-0">
+        <h2 class="mb-3">Configurable</h2>
+        <p class="m-0 mb-3">
+          Last but not least, VeinMiner's configuration is extremely <strong>versatile</strong> and <strong>flexible</strong> to accommodate <em>your server</em>.
+          Create custom tool configs each with their own set of tools or items, their own block lists and their own distinct set of modifiers for players while they're mining.
+          No matter your server, whether you want to use VeinMiner as a donor perk or just as general availability, it can be configured to fit right in.
+        </p>
+        <p class="m-0">
+          For an in-depth list of all configuration options provided by VeinMiner, visit the <a href="https://www.spigotmc.org/resources/12038/" taget="_blank" title="SpigotMC">official SpigotMC resource page</a>.
+        </p>
+      </div>
+    </div>
+
+    <hr class="divider">
+
+    <!-- You might also like... popout card. -->
+    <div class="bd-callout" id="callout-dragoneggdrop">
+      <h5>Like VeinMiner? You might also like...</h5>
+      <div class="container d-flex py-3 px-0">
+        <img class="plugin-logo mr-4 my-auto" src="../assets/plugins/dragoneggdrop/logo.png" alt="DragonEggDrop logo">
+        <p class="m-0">
+          <strong>DragonEggDrop</strong> is another plugin made by Choco with a similar set of flexible commands, permissions and configuration options that allow you to control how you want the dragon to behave in The End.
+          Design custom templates, custom loot tables and even custom automatic respawn times for when the dragon is killed.
+          Never worry about having to respawn the Ender Dragon manually every time - DragonEggDrop will do this for you!
+        </p>
+      </div>
+      <p class="text-muted">Get more information on DragonEggDrop <a href="./dragoneggdrop.html" title="DragonEggDrop">here</a>!</p>
+    </div>
+
+    <hr class="divider">
+  </main>
+
+  <footer class="footer mt-auto py-3 px-5">
+    <div class="container-flex">
+      <div class="row">
+        <div class="col">
+          <span class="text-muted text-justify">Icons made by <a class="muted" href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a class="muted" href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></span>
+        </div>
+        <div class="col">
+          <span class="text-muted text-justify float-right">Website designed & written by <a class="muted" href="https://twitter.com/2008Choco_" title="Freepik">Parker Hawke</a></span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+  <!-- My JS -->
+  <script src="../scripts/plugin.js"></script>
+</body>
+</html>

@@ -1,0 +1,60 @@
+h1 {
+    font-weight: bold;
+}
+
+.featured-image {
+    max-width: 500px;
+    max-height: 280px;
+}
+
+.plugin-logo {
+    max-width: 90px;
+    max-height: 90px;
+}
+
+.bd-callout {
+    padding: 1.25rem;
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+
+    border: 1px solid #e9ecef;
+    border-left-width: .25rem;
+    border-radius: .25rem;
+}
+
+/* Found in plugins/veinminer.html */
+#callout-dragoneggdrop {
+    border-left-color: #b757e4;
+}
+
+/* Found in plugins/dragoneggdrop.html */
+#callout-alchemicalarrows {
+    border-left-color: #da4444;
+}
+
+/* Found in plugins/alchemicalarrows.html */
+#callout-locksecurity {
+    border-left-color: #e49851;
+}
+
+/* Found in plugins/locksecurity.html */
+#callout-veinminer {
+    border-left-color: #49cadb;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 0.5em;
+}
+
+th {
+    text-align: center;
+}
+
+tbody > tr:nth-child(odd) {
+    background: #EEEEEE;
+}

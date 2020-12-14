@@ -1,102 +1,241 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>2008Choco</title>
-    <link rel="icon" type="image/x-icon" href="./assets/favicon.ico">
-    
-    <link rel="stylesheet" href="./css/index.css">
-    <link rel="stylesheet" href="./css/flipper.css">
-    
-    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+  <title>Choco - Parker Hawke</title>
+
+  <meta charset="utf-8" />
+  <meta name="author" content="Parker Hawke" />
+  <meta name="description" content="My name is Parker Hawke and I'm a software developer based out of Ontario, Canada. I make plugins for Minecraft servers and develop standalone games in my free time." />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link rel="canonical" href="http://choco.wtf/" />
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/index.css" />
 </head>
 <body>
-    <div class="profile-header">
-        <div class="profile">
-            <div class="flip-container">
-                <div class="flipper">
-                    <img class="profile-image" id="front" src="./assets/profile-pic.png" alt="Profile Picture"/>
-                    <img class="profile-image" id="back" src="./assets/profile-pic-irl.jpg" alt="IRL Profile Picture"/>
-                </div>
-            </div>
-            
-            <div class="profile-summary">
-                <p>My name is <strong>Parker Hawke</strong>, known online as <strong>2008Choco</strong>. I am a software developer proficient in Java, a language in which I write indie games and free open source Minecraft Bukkit plugins.</p>
-                <p>Here you will find hotlinks to all my <strong>resources</strong>, their <strong>Javadocs</strong> and my <strong>GitHub profile</strong>. If you are a web developer and are capable of making a more professional website, please do not hesitate to contact me on Discord.</p>
-            </div>
-        </div>
-        
-        <div class="social">
-            <a href="https://www.github.com/2008Choco/" target="_blank"><img src="./assets/social/github-logo.png" alt="GitHub" class="social-logo"/></a>
-            <a href="https://www.spigotmc.org/members/2008Choco.31119/" target="_blank"><img src="./assets/social/spigot-logo.png" alt="SpigotMC" class="social-logo"/></a>
-            <a href="http://discord.choco.gg/" target="_blank"><img src="./assets/social/discord-logo.png" alt="Discord" class="social-logo"/></a>
-            <a href="https://www.twitter.com/2008Choco_/" target="_blank"><img src="./assets/social/twitter-logo.png" alt="Twitter" class="social-logo"/></a>
-        </div>
+  <nav class="container-fluid">
+    <div class="row align-items-center py-4">
+      <!-- Left nav bar -->
+      <div class="col-5">
+        <ul class="nav-list">
+          <li><a href="https://spigotmc.org/members/31119" target="_blank">SpigotMC</a></li>
+          <li><a href="https://github.com/2008Choco" target="_blank">GitHub</a></li>
+          <li><a href="http://discord.choco.wtf" target="_blank">Discord</a></li>
+          <li><a href="https://twitter.com/2008Choco_" target="_blank">Twitter</a></li>
+        </ul>
+      </div>
+
+      <!-- Home button -->
+      <div class="col-2 d-flex justify-content-center">
+        <a href="#"><img src="./assets/icons/home_filled.svg" alt="Home" id="home"></a>
+      </div>
+
+      <!-- Right nav bar -->
+      <div class="col">
+        <ul class="nav-list float-right">
+          <li><a href="./plugins/veinminer.html">VeinMiner</a></li> <!-- RID: 12038 -->
+          <li><a href="./plugins/dragoneggdrop.html">DragonEggDrop</a></li> <!-- RID: 35570 -->
+          <li><a href="./plugins/alchemicalarrows.html">AlchemicalArrows</a></li> <!-- RID: 11693 -->
+          <li><a href="./plugins/locksecurity.html">LockSecurity</a></li> <!-- RID: 81282 -->
+        </ul>
+      </div>
     </div>
-    
-    <ul id="plugin-list">
-        <li class="plugin-background">
-            <a href="https://www.spigotmc.org/resources/alchemicalarrows.11693/" target="_blank">
-                <img src="./assets/logos/alchemical-arrows-logo.png" alt="AlchemicalArrows" class="plugin-logo"/>
-            </a>
-            
-            <div class="plugin-summary">
-                <p class="plugin-title">AlchemicalArrows 3</p>
-                <p class="plugin-description">Arrows with alchemical properties, each performing thematic in-world effects. From fire to water, life to death, magnetic to explosive, this plugin adds arrows to improve the bow vs. bow combat experience on your server.</p>
+  </nav>
+
+  <main class="container-fluid mb-5">
+    <!-- About me -->
+    <h2 class="text-center py-4">About Me</h2>
+    <div class="row mx-5">
+      <div class="col-xl-3 my-4 d-flex justify-content-center">
+        <img src="./assets/profile.png" class="border border-dark rounded-circle" id="profile-picture" alt="Profile picture">
+      </div>
+
+      <div class="col-xl m-auto px-4">
+        <h3>Personal Life</h3>
+        <p class="text-justify age-injector">
+          My name is Parker Hawke. I was born in Ontario and am a proud {age} year old Canadian currently living east of the Greater Toronto Area.
+          Throughout my childhood I was taught to pursue my goals and work hard at everything I set my mind to, to continue to learn and to grow.
+          I am currently enrolled in various post-secondary courses seeking to complete a certification in software development. 
+        </p>
+      </div>
+
+      <div class="col-xl m-auto px-4">
+        <h3>Experience</h3>
+        <p class="text-justify">
+          From the age of 7, programming had become a massive interest of mine.
+          Starting with Lua and making my way up to more enterprise languages like Java (from early 2015) and Python (from early 2017), I was eager to learn more.
+          I have a strong understanding of complex software design and development and am confident with languages including Java, Python, C++, JavaScript among others.
+        </p>
+      </div>
+
+      <div class="col-xl m-auto px-4">
+        <h3>Minecraft</h3>
+        <p class="text-justify">
+          The game beloved by all, Minecraft, has become a large part of my life over the course of the last 8 - 9 years.
+          After being a player for many years, as my interest in software development grew, my desire to mod the game was also growing and I began learning to write server-sided mods in February of 2015.
+          I've continued to make mods since that day, exploring also client-sided modding.
+        </p>
+      </div>
+    </div>
+
+    <hr class="divider">
+
+    <!-- NOTE:
+      The plugin information cards SHOULD be generated dynamically with JavaScript.
+      For the sake of this assignment, they were written out manually (copy/pasted with altered information).
+    -->
+
+    <!-- Plugin information cards -->
+    <h2 class="text-center pb-4">My Minecraft Plugins</h2>
+    <div class="row mt-3">
+      <div class="col my-3 d-flex justify-content-center">
+        <div class="card bg-light" style="width: 22rem;">
+          <img class="card-img-top" src="./assets/plugins/veinminer_cover.png" alt="VeinMiner breaking diamond block">
+          <div class="card-body">
+            <h5 class="card-title">VeinMiner</h5>
+            <p class="card-text text-justify">Mine an entire vein of ores by breaking only one source block. Highly configurable including custom tools, block lists and block aliasing.</p>
+
+            <div class="container">
+              <div class="row">
+                <div class="col d-flex justify-content-center">
+                  <a href="https://github.com/2008Choco/VeinMiner" target="_blank" title="View source on GitHub"><img class="carded-icon" src="./assets/icons/github.svg" alt="GitHub"></a>
+                </div>
+                <div class="col d-flex justify-content-center">
+                  <a href="./javadocs/veinminer/index.html" target="_blank" title="View developer API Javadocs"><img class="carded-icon" src="./assets/icons/books.svg" alt="Javadocs"></a>
+                </div>
+                <div class="col d-flex justify-content-center">
+                  <a href="https://www.spigotmc.org/resources/12038" target="_blank" title="View on SpigotMC"><img class="carded-icon" src="./assets/icons/download.svg" alt="SpigotMC"></a>
+                </div>
+                <div class="col d-flex justify-content-center">
+                  <a href="./plugins/veinminer.html" title="View more information"><img class="carded-icon" src="./assets/icons/info.svg" alt="More Info"></a>
+                </div>
+              </div>
             </div>
-            
-            <div class="plugin-links">
-                <a href="https://github.com/2008Choco/AlchemicalArrows/" target="_blank"><img src="./assets/plugin-icons/github.svg" alt="GitHub"></a>
-                <a href="./javadocs/alchemicalarrows/index.html" target="_blank"><img src="./assets/plugin-icons/bookshelf.svg" alt="Javadocs"></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col my-3 d-flex justify-content-center">
+        <div class="card bg-light" style="width: 22rem;">
+          <img class="card-img-top" src="./assets/plugins/dragoneggdrop_cover.png" alt="VeinMiner breaking diamond block">
+          <div class="card-body">
+            <h5 class="card-title">DragonEggDrop - Revival</h5>
+            <p class="card-text text-justify">Custom YAML-based Ender Dragon templates, loot tables and infinite automatic Ender Dragon respawns (with countdowns!).</p>
+
+            <div class="container">
+              <div class="row">
+                <div class="col d-flex justify-content-center">
+                  <a href="https://github.com/2008Choco/DragonEggDrop" target="_blank" title="View source on GitHub"><img class="carded-icon" src="./assets/icons/github.svg" alt="GitHub"></a>
+                </div>
+                <div class="col d-flex justify-content-center">
+                  <a href="./javadocs/dragoneggdrop-revival/index.html" target="_blank" title="View developer API Javadocs"><img class="carded-icon" src="./assets/icons/books.svg" alt="Javadocs"></a>
+                </div>
+                <div class="col d-flex justify-content-center">
+                  <a href="https://www.spigotmc.org/resources/35570" target="_blank" title="View on SpigotMC"><img class="carded-icon" src="./assets/icons/download.svg" alt="SpigotMC"></a>
+                </div>
+                <div class="col d-flex justify-content-center">
+                  <a href="./plugins/dragoneggdrop.html" title="View more information"><img class="carded-icon" src="./assets/icons/info.svg" alt="More Info"></a>
+                </div>
+              </div>
             </div>
-        </li>
-        
-        <li class="plugin-background">
-            <a href="https://www.spigotmc.org/resources/dragoneggdrop-revival.35570/" target="_blank">
-                <img src="./assets/logos/dragon-egg-drop-logo.png" alt="DragonEggDrop" class="plugin-logo"/>
-            </a>
-            
-            <div class="plugin-summary">
-                <p class="plugin-title">DragonEggDrop - Revival</p>
-                <p class="plugin-description">Customizable loot tables, unique death animations and attributable dragon templates to change the Ender Dragon encounter each and every time. This plugin is an active fork of PixelStix's DragonEggDrop.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col my-3 d-flex justify-content-center">
+        <div class="card bg-light" style="width: 22rem;">
+          <img class="card-img-top" src="./assets/plugins/alchemicalarrows_cover.png" alt="Player shooting fire arrow">
+          <div class="card-body">
+            <h5 class="card-title">AlchemicalArrows</h5>
+            <p class="card-text text-justify">Special arrows with unique effects and abilities both in-world and against players and mobs. Perfect for diverse PvP environments and servers.</p>
+
+            <div class="container">
+              <div class="row">
+                <div class="col d-flex justify-content-center">
+                  <a href="https://github.com/2008Choco/AlchemicalArrows" target="_blank" title="View source on GitHub"><img class="carded-icon" src="./assets/icons/github.svg" alt="GitHub"></a>
+                </div>
+                <div class="col d-flex justify-content-center">
+                  <a href="./javadocs/alchemicalarrows/index.html" target="_blank" title="View developer API Javadocs"><img class="carded-icon" src="./assets/icons/books.svg" alt="Javadocs"></a>
+                </div>
+                <div class="col d-flex justify-content-center">
+                  <a href="https://www.spigotmc.org/resources/11693" target="_blank" title="View on SpigotMC"><img class="carded-icon" src="./assets/icons/download.svg" alt="SpigotMC"></a>
+                </div>
+                <div class="col d-flex justify-content-center">
+                  <a href="./plugins/alchemicalarrows.html" title="View more information"><img class="carded-icon" src="./assets/icons/info.svg" alt="More Info"></a>
+                </div>
+              </div>
             </div>
-            
-            <div class="plugin-links">
-                <a href="https://github.com/2008Choco/DragonEggDrop/" target="_blank"><img src="./assets/plugin-icons/github.svg" alt="GitHub"></a>
-                <a href="./javadocs/dragoneggdrop-revival/index.html" target="_blank"><img src="./assets/plugin-icons/bookshelf.svg" alt="Javadocs"></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col my-3 d-flex justify-content-center">
+        <div class="card bg-light" style="width: 22rem;">
+          <img class="card-img-top" src="./assets/plugins/locksecurity_cover.png" alt="Player locking a Minecraft chest">
+          <div class="card-body">
+            <h5 class="card-title">LockSecurity 2 <span class="badge bg-success ml-2" title="Premium" style="color: white; font-weight: normal;">$</span></h5>
+            <p class="card-text text-justify">Lock chests, doors and other blocks using physical keys. Useful for players as container protection and admins for custom maps!</p>
+
+            <div class="container">
+              <div class="row">
+                <div class="col d-flex justify-content-center">
+                  <a href="https://github.com/2008Choco/LockSecurity" target="_blank" title="View source on GitHub"><img class="carded-icon" src="./assets/icons/github.svg" alt="GitHub"></a>
+                </div>
+                <div class="col d-flex justify-content-center">
+                  <a href="./javadocs/locksecurity/index.html" target="_blank" title="View developer API Javadocs"><img class="carded-icon" src="./assets/icons/books.svg" alt="Javadocs"></a>
+                </div>
+                <div class="col d-flex justify-content-center">
+                  <a href="https://www.spigotmc.org/resources/81282" target="_blank" title="View on SpigotMC"><img class="carded-icon" src="./assets/icons/download.svg" alt="SpigotMC"></a>
+                </div>
+                <div class="col d-flex justify-content-center">
+                  <a href="./plugins/locksecurity.html" title="View more information"><img class="carded-icon" src="./assets/icons/info.svg" alt="More Info"></a>
+                </div>
+              </div>
             </div>
-        </li>
-        
-        <li class="plugin-background">
-            <a href="https://www.spigotmc.org/resources/locksecurity.12650/" target="_blank">
-                <img src="./assets/logos/lock-security-logo.png" alt="LockSecurity" class="plugin-logo"/>
-            </a>
-            
-            <div class="plugin-summary">
-                <p class="plugin-title">LockSecurity 2</p>
-                <p class="plugin-description">The easiest to use container protection plugin while being all-the-more RPG-friendly. Lock your chests and doors with keys, prevent them from being destroyed from explosions, fires or players and protect your loot.</p>
-            </div>
-            
-            <div class="plugin-links">
-                <a href="https://github.com/2008Choco/LockSecurity/" target="_blank"><img src="./assets/plugin-icons/github.svg" alt="GitHub"></a>
-                <a href="./javadocs/locksecurity/index.html" target="_blank"><img src="./assets/plugin-icons/bookshelf.svg" alt="Javadocs"></a>
-            </div>
-        </li>
-        
-        <li class="plugin-background">
-            <a href="https://www.spigotmc.org/resources/vein-miner.12038/" target="_blank">
-                <img src="./assets/logos/vein-miner-logo.png" alt="VeinMiner" class="plugin-logo"/>
-            </a>
-            
-            <div class="plugin-summary">
-                <p class="plugin-title">VeinMiner</p>
-                <p class="plugin-description">Mining a single ore while holding shift destroys the entire vein while respecting tool enchantments. This plugin aims to recreate the Forge mod, VeinMiner, in an efficient, flexible, customizable and feature-filled way.</p>
-            </div>
-            
-            <div class="plugin-links">
-                <a href="https://github.com/2008Choco/VeinMiner/" target="_blank"><img src="./assets/plugin-icons/github.svg" alt="GitHub"></a>
-                <a href="./javadocs/veinminer/index.html" target="_blank"><img src="./assets/plugin-icons/bookshelf.svg" alt="Javadocs"></a>
-            </div>
-        </li>
-    </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <hr class="divider">
+  </main>
+
+  <footer class="footer mt-auto py-3 px-5">
+    <div class="container-flex">
+      <div class="row">
+        <div class="col">
+          <span class="text-muted text-justify">Icons made by <a class="muted" href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a class="muted" href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></span>
+        </div>
+        <div class="col">
+          <span class="text-muted text-justify float-right">Website designed & written by <a class="muted" href="https://twitter.com/2008Choco_" title="Freepik">Parker Hawke</a></span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+  <!-- My JS -->
+  <script src="./scripts/index.js"></script>
 </body>
 </html>
+
+<!--
+     _________
+    / ======= \
+   / __________\
+  | ___________ |
+  | | -       | |
+  | |         | |
+  | |_________| |________________________
+  \_____________/  i made this website   )
+  / """"""""""" \    on this computer   /
+ / ::::::::::::: \                  =D-'
+(_________________)
+
+(art by: Brian MacDonald @ https://www.asciiart.eu/computers/computers)
+-->
