@@ -3,6 +3,7 @@ wtf.choco.arrows.api
 wtf.choco.arrows.api.event
 wtf.choco.arrows.api.property
 wtf.choco.arrows.arrow
-wtf.choco.arrows.crafting
+wtf.choco.arrows.arrow.entity
+wtf.choco.arrows.persistence
 wtf.choco.arrows.registry
 wtf.choco.arrows.utils
