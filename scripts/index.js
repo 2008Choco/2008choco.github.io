@@ -31,6 +31,10 @@ $(document).ready(() => {
         "Lock chests, doors and other blocks using physical keys. Useful for players as container protection and admins for custom maps!",
         81282, true
     )
+    createPluginCard("alchema", "Alchema",
+        "Integrates the world of brewery, witchcraft and magic into Minecraft without being intrusive on the vanilla feel of the game.",
+        87078
+    )
 
     // Hover -> gif for plugin cards
     $(".card").hover(
