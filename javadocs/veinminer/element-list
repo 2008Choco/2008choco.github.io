@@ -5,7 +5,10 @@ wtf.choco.veinminer.api.event
 wtf.choco.veinminer.data
 wtf.choco.veinminer.data.block
 wtf.choco.veinminer.economy
+wtf.choco.veinminer.integration
+wtf.choco.veinminer.metrics
+wtf.choco.veinminer.network
+wtf.choco.veinminer.network.message
 wtf.choco.veinminer.pattern
 wtf.choco.veinminer.tool
 wtf.choco.veinminer.utils
-wtf.choco.veinminer.utils.metrics
