@@ -3,6 +3,7 @@ wtf.choco.alchema.api.event
 wtf.choco.alchema.api.event.entity
 wtf.choco.alchema.api.event.player
 wtf.choco.alchema.cauldron
+wtf.choco.alchema.config
 wtf.choco.alchema.crafting
 wtf.choco.alchema.essence
 wtf.choco.alchema.persistence
