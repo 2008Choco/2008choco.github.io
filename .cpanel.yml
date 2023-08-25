@@ -1,5 +1,0 @@
----
-deployment:
-  tasks:
-    - export DEPLOYPATH=/home/chocpvxb/public_html/
-    - /bin/cp -R * $DEPLOYPATH
